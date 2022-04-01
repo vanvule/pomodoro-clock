@@ -6,6 +6,7 @@ import Timer from './Timer';
 import { StateProvider } from "./contexts/stateProvider";
 import reducer, { initialState } from "./reducer";
 import ThemeProvider from './contexts/themeProvider';
+import { Body } from './style';
 
 ReactDOM.render(
   <React.StrictMode>
